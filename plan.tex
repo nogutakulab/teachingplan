@@ -1,6 +1,5 @@
-\documentclass[a4paper,11pt,dvipdfmx,uplatex,ja=standard]{bxjsarticle} 
-% uplatex
-% \documentclass[a4j,11pt,dvipdfmx]{jsarticle} platex
+\documentclass[a4paper,11pt,dvipdfmx,uplatex,%
+ja=standard]{bxjsarticle} 
 %
 \setpagelayout{margin=25mm} % 余白を25mmに
 %%%%%%%%%%%%%%%%%=======プリアンブル==================%%%%%%%%%%
@@ -9,15 +8,43 @@
 %
 \usepackage[T1]{fontenc} % フォントのあれこれ
 \usepackage{lmodern}
-\usepackage{bxpapersize} % platexの場合は外す
+\usepackage{bxpapersize} % 読み込みだけでOK
 \usepackage{amsmath,amssymb} % 数式関連
 \usepackage{ascmac} % 枠囲み
 \usepackage{longtable} % ページをまたぐ長い表
 \usepackage{braket} % カッコ
 \usepackage{enumitem} % 箇条書き
-
-
-
+%
+\usepackage{./sty/teachingplan} 
+% タイトル形式の再定義
+% 教育実習用でない場合は上を
+%"./sty/teachingplan"に変える
+%
+%\usepackage{titlesec}
+%\titleformat*{\section}{\bfseries\normalsize}
+\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\thesubsection}{(\arabic{section})}
+%
+% セクションの書式
+%
+\pagestyle{empty} % ページ番号を消去
+%
+\title{物理基礎 学習指導案} % タイトル
+\date{2018年10月15日（月）} % 日付 
+\period{1}{8:50}{10:20} 
+% 時限，開始時刻，終了時刻の順に入力
+\subject{2}{A}{38}
+% 学年，クラス，人数の順に入力
+\school{高知工科大学} % 学校名
+%\boss{NOGUTAKULab} % 指導教官
+% \bossは"teachingplan.sty"のときは使えない
+\author{野口 匠} % 実習生
+% "teachingplan.sty"の場合は"授業者"になる
+\venue{東京ビックサイト}
+%
+%%%%%%%%%=========ここから本文============%%%%%%%%%
 \begin{document}
-hogehoge
+\maketitle
+\section{単元名}
+運動の法則
 \end{document}

@@ -1,4 +1,4 @@
-PWD /home/nogutaku/kenkyujugyou/template
+PWD /home/nogutaku/template
 INPUT /usr/local/texlive/2018/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2018/texmf.cnf
@@ -77,16 +77,7 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/braket/braket.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/braket/braket.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
-INPUT plan.aux
-INPUT plan.aux
-OUTPUT plan.aux
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmr.fd
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmr.fd
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/ts1lmr.fd
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
-OUTPUT plan.dvi
-INPUT plan.aux
+INPUT ./sty/teachingplan.sty
+INPUT ./sty/teachingplan.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty

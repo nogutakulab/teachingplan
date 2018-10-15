@@ -1,0 +1,46 @@
+%%%%%%===========学習指導案用==========%%%%%%
+\makeatletter
+%
+\def\period#1#2#3{\def\@period{%
+第{#1}校時 {#2}--{#3}}} % 時限
+\def\subject#1#2#3{\def\@subject{%
+第{#1}学年{#2}組 {#3}名}} % クラス，学年，人数
+\def\school#1{\def\@school{#1}} % 学校名
+\def\venue#1{\def\@venue{#1}} % 会場
+
+\renewcommand{\maketitle}{%
+  \begin{center}
+    \begin{large}
+      {\large \textbf{\@title}}
+    \end{large}
+  \end{center}
+  %
+  \begin{table}[h]
+    \begin{flushright}
+      \begin{tabular}{cl}
+        日時 & \@date \\
+             & \@period \\
+        対象 & \@subject \\
+        学校名 & \@school \\
+        授業者 & \@author \\
+        会場 & \@venue 
+      \end{tabular}
+    \end{flushright}
+  \end{table}
+  %
+  \vspace{-1.5zh} % 微調整
+}
+%%%%%======セクションコマンドの形式======%%%%
+%
+\renewcommand{\section}{%
+  \@startsection{section} % コマンドの名前
+  {1} % 深さ
+  {\z@} % 左のインデント量 \@zは0の意味
+  {\z@ \@plus.5\Cdp \@minus.2\Cdp} 
+  % 見出し上のスペース
+  {\z@ \@plus.3\Cdp} % 見出し下のスペース
+  {\bfseries\normalsize\headfont\raggedright}
+  % 見出しのフォントと大きさ
+}
+\makeatother
+

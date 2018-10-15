@@ -1,8 +1,6 @@
-This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.9.19)  11 OCT 2018 16:11
+This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.9.19)  16 OCT 2018 00:16
 entering extended mode
  restricted \write18 enabled.
- Source specials enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **plan.tex
 (./plan.tex
@@ -22,12 +20,15 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count85
 \calc@Cskip=\skip43
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/bxjscls/bxjscompat.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/bxjscls/bxjscompat.sty
 Package: bxjscompat 2018/03/29 v1.8a BXJS document classes
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 \stockwidth=\dimen120
@@ -41,12 +42,15 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 948.
 \fullwidth=\dimen125
- (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count86
@@ -77,9 +81,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \@lnumwidth=\dimen135
 \bibindent=\dimen136
 \bxjs@jayear=\count97
- (/usr/local/texlive/2018/texmf-dist/tex/latex/bxjscls/bxjsja-standard.def
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/bxjscls/bxjsja-standard.def
 File: bxjsja-standard.def 2018/03/29 v1.8a BXJS document classes
- (/usr/local/texlive/2018/texmf-dist/tex/latex/bxjscls/bxjsja-minimal.def
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/bxjscls/bxjsja-minimal.def
 File: bxjsja-minimal.def 2018/03/29 v1.8a BXJS document classes
 LaTeX Info: Redefining \rmfamily on input line 182.
 LaTeX Info: Redefining \sffamily on input line 185.
@@ -107,10 +113,12 @@ Package geometry Warning: Over-specification in `v'-direction.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/lmodern.sty
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -144,42 +152,54 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/bxpapersize/bxpapersize.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/bxpapersize/bxpapersize.sty
 Package: bxpapersize 2017/10/08 v0.3b
- (/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks17
 \XKV@tempa@toks=\toks18
 )
 \XKV@depth=\count98
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
 \bxpr@dima=\dimen137
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen138
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen139
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count99
@@ -219,17 +239,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/ascmac/ascmac.sty
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ascmac/ascmac.sty
 Package: ascmac 2018/03/09 v2.0h ascmac wrapper (community edition) 
- (/usr/local/texlive/2018/texmf-dist/tex/latex/ascmac/tascmac.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ascmac/tascmac.sty
 Package: tascmac 2018/03/09 v2.0h ascmac package (community edition) 
 \@savetbaselineshift=\dimen147
 \@saveybaselineshift=\dimen148
@@ -248,7 +272,8 @@ Package: tascmac 2018/03/09 v2.0h ascmac package (community edition)
 \@@bwsp=\box53
 \@bcal=\count111
 \shaderule=\dimen152
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip50
 \LTright=\skip51
@@ -265,35 +290,40 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@tables=\count115
 \c@LT@chunks=\count116
 \LT@p@ftn=\toks25
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/braket/braket.sty) (/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip54
 \enit@outerparindent=\dimen154
 \enit@toks=\toks26
 \enit@inbox=\box58
 \enitdp@description=\count117
-) (./plan.aux)
+)
+(./sty/teachingplan.sty) (./plan.aux)
 \openout1 = `plan.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
- (I search kanjifont definition file: . . ) (I search font definition file: . . . . . . . )
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 21.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+ (I search kanjifont definition file: . .
+) (I search font definition file: . . . . . . . )
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 46.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* detected driver: dvipdfm
@@ -332,16 +362,89 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box59
-[1
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 47.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 47.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 47.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 11.09656pt on input line 47.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 47.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 47.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 47.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 47.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 47.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.47299pt on input line 47.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 47.
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 48.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 48.
+LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 48.
+LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 48.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 48.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [1
 
 ] (./plan.aux) ) 
 Here is how much of TeX's memory you used:
- 3616 strings out of 493270
- 49724 string characters out of 6145018
- 121988 words of memory out of 5000000
- 7515 multiletter control sequences out of 15000+600000
- 10595 words of font info for 38 fonts, out of 8000000 for 9000
+ 3771 strings out of 493270
+ 52858 string characters out of 6145018
+ 123142 words of memory out of 5000000
+ 7624 multiletter control sequences out of 15000+600000
+ 35827 words of font info for 66 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,4n,34p,240b,182s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,7n,34p,240b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on plan.dvi (1 page, 388 bytes).
+Output written on plan.dvi (1 page, 968 bytes).
