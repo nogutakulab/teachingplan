@@ -35,12 +35,21 @@
 \renewcommand{\section}{%
   \@startsection{section} % コマンドの名前
   {1} % 深さ
-  {\z@} % 左のインデント量 \@zは0の意味
+  {\z@} % 左のインデント量 \z@は0の意味
   {\z@ \@plus.5\Cdp \@minus.2\Cdp} 
   % 見出し上のスペース
   {\z@ \@plus.3\Cdp} % 見出し下のスペース
-  {\bfseries\normalsize\headfont\raggedright}
+  {\bfseries\normalsize\raggedright}
   % 見出しのフォントと大きさ
 }
+\def\@seccntformat#1{%
+  \@nameuse{@seccnt@prefix@#1}%
+  \@nameuse{the#1}%
+  \@nameuse{@seccnt@postfix@#1}%
+  \@nameuse{@seccnt@afterskip@#1}
+}
+\def\@seccnt@prefix@section{}
+\def\@seccnt@postfix@section{.}
+\def\@seccnt@afterskip@section{}
 \makeatother
 
