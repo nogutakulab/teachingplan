@@ -12,20 +12,17 @@ ja=standard]{bxjsarticle}
 \usepackage{amsmath,amssymb} % 数式関連
 \usepackage{ascmac} % 枠囲み
 \usepackage{longtable} % ページをまたぐ長い表
+\usepackage{ltablex}
 \usepackage{braket} % カッコ
 \usepackage{enumitem} % 箇条書き
+\usepackage{otf} % 丸数字
 %
-\usepackage{./sty/teachingplan} 
+\usepackage{./sty/teachingpractice} 
 % タイトル形式の再定義
 % 教育実習用でない場合は上を
 %"./sty/teachingplan"に変える
 %
-%\usepackage{titlesec}
-%\titleformat*{\section}{\bfseries\normalsize}
-\renewcommand{\thesection}{\arabic{section}.}
-\renewcommand{\thesubsection}{(\arabic{section})}
 %
-% セクションの書式
 %
 \pagestyle{empty} % ページ番号を消去
 %
@@ -36,15 +33,253 @@ ja=standard]{bxjsarticle}
 \subject{2}{A}{38}
 % 学年，クラス，人数の順に入力
 \school{高知工科大学} % 学校名
-%\boss{NOGUTAKULab} % 指導教官
+\boss{NOGUTAKULab} % 指導教官
 % \bossは"teachingplan.sty"のときは使えない
 \author{野口 匠} % 実習生
 % "teachingplan.sty"の場合は"授業者"になる
-\venue{東京ビックサイト}
+\venue{C306教室}
 %
 %%%%%%%%%=========ここから本文============%%%%%%%%%
 \begin{document}
+%
 \maketitle
+%
 \section{単元名}
 運動の法則
+
+\section{使用教材}
+いろいろ
+
+\section{単元について}
+\begin{enumerate}[label=(\arabic*)]
+  \setlength{\parindent}{1zw}
+  \item 単元観
+
+    \verb|\setlength|コマンドにより，
+    \verb|enumerate|環境下でもインデントができます。
+    インデントをするためにはソース内に空行
+    を入れてください。
+
+    こんな感じ。
+
+   
+
+  \item 生徒観
+
+    ここに生徒の様子を書く。
+
+
+  \item 指導観
+
+    ここにどう指導していくかを書く。
+\end{enumerate}
+
+\section{単元の目標}
+ここに単元の目標を書く。
+
+\section{単元の評価規準}
+\begin{longtable}{|p{10zw}|p{10zw}|p{10zw}|p{10zw}|}
+  % 10文字で改行
+  \hline
+  \multicolumn{1}{|c|}%
+  {関心・意欲・態度} &
+  \multicolumn{1}{|c|}%
+  {思考・判断・表現} &
+  \multicolumn{1}{|c|}%
+  {観察・実験の技能} & 
+  \multicolumn{1}{|c|}%
+  {知識・理解}
+  \\
+  \hline
+  \endfirsthead
+  ・中点「・」は\verb|itemize|環境ではなく
+  普通に・を打ちましょう。
+  &
+  ・hogehoge
+  &
+  ・hogehoge
+  &
+  ・hogehoge
+  \\
+  \hline
+\end{longtable}
+
+\section{単元における指導と評価の計画（全4時間）}
+\begin{longtable}{|c|p{8zw}|p{22zw}|p{6zw}|}
+  \hline
+  \multicolumn{1}{|c|}{時数} &
+  \multicolumn{1}{c|}{授業内容} &
+  \multicolumn{1}{c|}{評価規準} &
+  \multicolumn{1}{c|}{評価方法}
+  \\
+  \hline
+  \endhead
+  %
+  1
+  &
+  タイトル
+  &
+  評価規準
+  &
+  評価方法
+  \\
+  &
+  
+  &
+  評価規準その2
+  &
+  評価方法その2
+  \\
+  &
+
+  &
+  \verb|endhead|とあるところを
+  \verb|endfirsthead|に変更すると，
+  2ページ目以降のヘッダーが表示されなくなります。
+  &
+  その3
+  \\
+  \hline
+  %
+  2
+  &
+  タイトル2
+  &
+  評価規準  
+  &
+  評価方法
+  \\
+  &
+
+  &
+  評価規準2
+  &
+  評価方法2
+  \\
+  \hline
+  %
+  3
+  &
+  タイトル3
+  &
+  hogehoge
+  &
+  
+  \\
+  \hline
+  %
+  4（本時）
+  &
+  hogehoge
+  &
+  hogehoge
+  &
+  \\
+  &
+
+  &
+  hogehoge
+  &
+  hogehoge
+  \\
+  \hline
+  %
+\end{longtable}
+
+\section{本時の指導}
+\begin{enumerate}[label=(\arabic*)]
+  \setlength{\parindent}{1zw}
+  \item 本時（第4時）の目標
+    
+    hogehoge
+
+  \item 本時の評価規準
+    \begin{itemize}[label=・]
+      \item hogehogeしている。［知］
+      \item hogehogeしている。［技］
+    \end{itemize}
+
+  \item 本時の展開
+\end{enumerate}
+\begin{longtable}{|c|p{20zw}|p{8zw}|p{8zw}|}
+  \hline
+  \multicolumn{1}{|c|}{} &
+  \multicolumn{1}{c|}{学習内容} &
+  \multicolumn{1}{c|}{指導上の留意点} &
+  \multicolumn{1}{c|}{評価の観点} 
+  \\
+  \hline
+  \endhead
+  %
+  導入
+  &
+  前回までの復習
+  &
+  &
+  \\
+  （5分）
+  &
+  ・こんなことをします。
+  &
+  ・こんなことに気をつけます。
+  &
+  ・こんなところを評価します。
+  \\
+  \hline
+  %
+  展開\ajMaru{1}
+  &
+  運動方程式
+  &
+  &
+  \\
+  （20分）
+  &
+  ・こんなことをやります。
+  &
+  ・こんなことに注意します。
+  &
+  ・こんな感じで評価します。
+  \\
+  \hline
+  %
+  展開\ajMaru{2}
+  &
+  問題演習
+  &
+  &
+  \\
+  （20分）
+  &
+  ・こんな感じでやる。
+  &
+  ・hogehoge
+  &
+  ・hogehoge
+  \\
+  \hline
+  %
+  まとめ
+  &
+  振り返りと次回の予告
+  &
+  &
+  \\
+  （5分）
+  &
+  ・本時の振り返り
+  &
+  &
+  \\
+  &
+  ・次回の予告
+  &
+  &
+  \\
+  \hline
+  %
+\end{longtable}
+
+  
+
 \end{document}
